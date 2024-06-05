@@ -1,0 +1,16 @@
+== R2.1: Wegwerfpolizist horizontal bewegen
+
+.Beschreibung
+Überprüfen, ob der Spieler den Wegwerfpolizisten erfolgreich horizontal bewegen kann.
+
+.Annahmen und Voraussetzungen
+Der Wegwerfpolizist wurde erfolgreich erstellt.
+
+.Testdaten
+Joystick-Bewegung nach rechts.
+
+.Auszuführende Schritte
+
+Wegwerfpolizisten horizontal bewegen.
+.Erwartetes Ergebnis
+Der Wegwerfpolizist bewegt sich erfolgreich nach rechts.

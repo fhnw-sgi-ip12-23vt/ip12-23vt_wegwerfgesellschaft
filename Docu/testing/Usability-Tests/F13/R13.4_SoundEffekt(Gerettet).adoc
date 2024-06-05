@@ -1,0 +1,15 @@
+== R 13.4: Soundeffekt Gegenstand (Gerettet)
+.Beschreibung:
+Überprüfen, ob der Soundeffekt für einen geretteten Gegenstand korrekt abgespielt wird.
+
+.Annahmen und Voraussetzungen:
+Ein Gegenstand wird gerettet.
+
+.Testdaten:
+Gerettete Aktion.
+
+.Auszuführende Schritte:
+Ein Gegenstand wird gerettet.
+
+.Erwartetes Ergebnis:
+Der korrekte Soundeffekt wird abgespielt.

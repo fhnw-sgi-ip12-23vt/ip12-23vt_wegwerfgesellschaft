@@ -1,0 +1,16 @@
+== R3.4: Gegenstand in einem Cart zur Recyclingstelle führen
+
+.Beschreibung
+Überprüfen, ob das System einen Gegenstand in einem Cart erfolgreich zur Recyclingstelle führen kann.
+
+.Annahmen und Voraussetzungen
+Ein Gegenstand befindet sich im Cart.
+
+.Testdaten
+Gegenstand im Cart.
+
+.Auszuführende Schritte
+Cart zur Recyclingstelle bewegen.
+
+.Erwartetes Ergebnis
+Der Gegenstand wird erfolgreich zur Recyclingstelle geführt.

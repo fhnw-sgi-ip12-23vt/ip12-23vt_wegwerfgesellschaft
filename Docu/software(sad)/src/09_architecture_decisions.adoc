@@ -1,0 +1,31 @@
+[[section-design-decisions]]
+== Architekturentscheidungen
+
+[role="arc42help"]
+
+****
+Titel: Verwendung von JavaFX und JavaFXGL
+
+Status: Angenommen
+
+Kontext: Für die Entwicklung eines Arcadespiels benötigt es eine leistungsfähige, aber auch gleichzeitig ressourcenschonende GUI-Bibliothek. JavaFX bietet eine vielseitige GUI und JavaFXGL beinhaltet essentiele Spieleentwicklungsfunkionen, die für das Projekt abgestimmt sind.
+
+Entscheidung: Wir entscheiden uns für die Verwendung von JavaFX zusammen mit der JavaFXGL-Bibliothek, um die Benutzeroberfläche und die Spielelogik zu implementieren.
+
+
+Begründung: Siehe SAD Kapitel 4.1 Analyse
+
+Konsequenzen: Diese Entscheidung ermöglicht eine effiziente Entwicklung der GUI und der Spiellogik. Sie erfordert jedoch, dass unser Entwicklungsteam Erfahrung mit JavaFX und JavaFXGL sammelt. Die Leistung auf dem Raspberry Pi muss regelmäßig überprüft werden, um sicherzustellen, dass die Anwendung reibungslos läuft.
+****
+
+****
+Titel: Verwendung von Raspberry Pi 4
+
+Status: Noch offen
+
+Kontext: Damit das mit Java-Entwickelte Arcadespiel genügend Ressourcen enthält, benötigt es eine Anforderung von Hardwareelementen. Das Team wurde ein Raspberry Pi 4 zur Verfügung gestellt. Ein Upgrade auf den neueren Raspberry Pi 5 ist möglich und optimiert mögliche Performance Defizite.
+
+Entscheidung: Durch Optimierungen der Performance durch Verminderung der Auflösungen der Bilder und Code Cleaning genügen die Ressourcen vom Raspberry Pi 4. Zusätzlich ist eine Inkompatibilität mit dem Raspberry Pi 5 gefunden worden, welche nicht umgehbar ist. Siehe SAD Kapitel 11 Risiken 1 und 2.
+
+Konsequenzen: Durch das Beibehalten des Raspberry Pi 4 und das Vermeiden von Inkompatibilitätsproblemen mit dem neueren Modell kann das Projekt Kosten sparen. Die Investition in neue Hardware wird vermieden, und das bestehende Equipment kann effektiv genutzt werden. Langfristig muss jedoch bewertet werden, ob die Hardware-Ausstattung den wachsenden Anforderungen des Spiels gerecht wird oder ob zukünftige Updates eine leistungsfähigere Plattform erfordern.
+****

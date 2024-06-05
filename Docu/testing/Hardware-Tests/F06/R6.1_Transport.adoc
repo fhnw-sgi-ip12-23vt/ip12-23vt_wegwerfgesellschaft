@@ -1,0 +1,16 @@
+== R 6.1: Transport des Kastens
+.Beschreibung:
+Überprüfen, ob die Mitarbeiter den Kasten alleine oder zu zweit erfolgreich transportieren können.
+
+.Annahmen und Voraussetzungen:
+Der Kasten befindet sich an einer Position, die den Transport erfordert.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Versuch, den Kasten alleine zu transportieren.
+Versuch, den Kasten zu zweit zu transportieren.
+
+.Erwartetes Ergebnis:
+Der Kasten kann sowohl alleine als auch zu zweit erfolgreich transportiert werden.

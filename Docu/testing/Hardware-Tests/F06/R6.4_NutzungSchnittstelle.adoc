@@ -1,0 +1,15 @@
+== R 6.4: Nutzung der Schnittstelle
+
+.Beschreibung: Überprüfen, ob die Mitarbeiter die Schnittstelle des Kastens erfolgreich benutzen können.
+
+.Annahmen und Voraussetzungen:
+Der Kasten ist in Betrieb.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Zugang und Benutzung der Schnittstelle des Kastens versuchen.
+
+.Erwartetes Ergebnis:
+Die Mitarbeiter können die Schnittstelle des Kastens erfolgreich nutzen.

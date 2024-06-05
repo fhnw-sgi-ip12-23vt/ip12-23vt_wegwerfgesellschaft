@@ -1,0 +1,15 @@
+== R 7.1: Tutorial anzeigen
+.Beschreibung:
+Überprüfen, ob der Spieler das Tutorial anzeigen kann, um das Spiel zu verstehen.
+
+.Annahmen und Voraussetzungen:
+Das Spiel befindet sich im Startscreen.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Option "Tutorial anzeigen" auswählen.
+
+.Erwartetes Ergebnis:
+Das Tutorial wird erfolgreich angezeigt.

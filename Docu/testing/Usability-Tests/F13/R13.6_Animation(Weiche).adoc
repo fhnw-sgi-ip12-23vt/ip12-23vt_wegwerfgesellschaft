@@ -1,0 +1,15 @@
+== R 13.6: Animation Weiche
+.Beschreibung:
+Überprüfen, ob die Animation der Weiche korrekt positioniert wird.
+
+.Annahmen und Voraussetzungen:
+Die Weiche wird definiert.
+
+.Testdaten:
+Erreichung der Weiche.
+
+.Auszuführende Schritte:
+Die Weiche wird erreicht.
+
+.Erwartetes Ergebnis:
+Die Animation der Erreichung wird korrekt abgespielt.

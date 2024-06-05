@@ -1,0 +1,15 @@
+== R 8.2: Zusammenfassung vom Karma-Score anzeigen
+.Beschreibung:
+Überprüfen, ob das System eine Zusammenfassung des Karma-Scores anzeigen kann.
+
+.Annahmen und Voraussetzungen:
+Das Spiel befindet sich im Endscreen.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Option "Karma-Score anzeigen" auswählen.
+
+.Erwartetes Ergebnis:
+Die Zusammenfassung des Karma-Scores wird erfolgreich angezeigt.

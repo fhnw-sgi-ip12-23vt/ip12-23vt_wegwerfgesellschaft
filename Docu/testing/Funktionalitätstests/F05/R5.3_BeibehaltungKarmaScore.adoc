@@ -1,0 +1,15 @@
+== R 5.3: Beibehalten des Karma-Scores
+.Beschreibung:
+Überprüfen, ob das System den Karma-Score beibehält, wenn der Spieler eine neutrale Aktion ausführt.
+
+.Annahmen und Voraussetzungen:
+Der Spieler hat eine neutrale Aktion im Spiel ausgeführt.
+
+.Testdaten:
+Neutrale Aktion des Spielers.
+
+.Auszuführende Schritte:
+Ausführen der neutralen Aktion im Spiel.
+
+.Erwartetes Ergebnis:
+Der Karma-Score des Spielers bleibt unverändert.

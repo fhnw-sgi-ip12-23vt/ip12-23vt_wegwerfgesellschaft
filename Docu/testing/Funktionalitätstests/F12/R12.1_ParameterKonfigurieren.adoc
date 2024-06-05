@@ -1,0 +1,16 @@
+== R 12.1: Veränderung spezifischer Parameter
+.Beschreibung:
+Überprüfen, ob Mitarbeiter spezifische Parameter erfolgreich verändern können.
+
+.Annahmen und Voraussetzungen:
+Das Konfigurationsmenü ist zugänglich.
+
+.Testdaten:
+Bestimmte Parameter für die Veränderung.
+
+.Auszuführende Schritte:
+Konfigurationsmenü öffnen.
+Spezifische Parameter verändern.
+
+.Erwartetes Ergebnis:
+Die spezifischen Parameter werden erfolgreich gemäß den Eingaben verändert.

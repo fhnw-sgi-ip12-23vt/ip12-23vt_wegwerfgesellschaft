@@ -1,0 +1,13 @@
+== R1.2: Gegenstand Kategorie zuweisen
+
+Beschreibung: Überprüfen, ob einem Gegenstand erfolgreich eine Kategorie zugewiesen wird. (z.B Elektrogeräte, Möbel, Kleider)
+
+Annahmen und Voraussetzungen: Der Gegenstand wurde erfolgreich erstellt (R1.1).
+
+Testdaten: Bestimmte Kategorie für den Gegenstand.
+
+Auszuführende Schritte:
+
+. Kategorie des Gegenstands anschauen
+
+Erwartetes Ergebnis: Die Kategorie wird erfolgreich dem Gegenstand zugeordnet.

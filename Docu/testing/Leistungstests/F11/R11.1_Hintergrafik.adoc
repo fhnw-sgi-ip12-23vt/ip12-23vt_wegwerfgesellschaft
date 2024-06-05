@@ -1,0 +1,15 @@
+== R 11.1: Hintergrundgrafik
+.Beschreibung:
+Überprüfen, ob das System die Hintergrundgrafik gemäß den Spielanforderungen korrekt darstellt.
+
+.Annahmen und Voraussetzungen:
+Das Spiel läuft im regulären Modus.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Spiel starten und auf den Hintergrund achten.
+
+.Erwartetes Ergebnis:
+Die Hintergrundgrafik zeigt das Dorf, Wege und Industrie gemäß den Spielanforderungen.

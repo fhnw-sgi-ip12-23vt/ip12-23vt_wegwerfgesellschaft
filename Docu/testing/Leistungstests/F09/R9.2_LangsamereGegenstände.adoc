@@ -1,0 +1,16 @@
+== R 9.2: Weniger Gegenstände fallen langsamer
+.Beschreibung:
+Überprüfen, ob das System bei verringerter Schwierigkeit weniger Gegenstände langsamer fallen lässt.
+
+.Annahmen und Voraussetzungen:
+Das Spiel läuft im Modus mit verringerter Schwierigkeit.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Schwierigkeitsgrad auf "Verringert" einstellen.
+Das Spiel starten und beobachten, wie Gegenstände fallen.
+
+.Erwartetes Ergebnis:
+Weniger Gegenstände fallen langsamer.

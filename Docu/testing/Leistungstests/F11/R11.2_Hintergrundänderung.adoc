@@ -1,0 +1,16 @@
+== R 11.2: Hintergrundänderung je nach Karma-Score
+.Beschreibung:
+Überprüfen, ob das System den Hintergrund je nach Karma-Score des Spielers korrekt ändert.
+
+.Annahmen und Voraussetzungen:
+Das Spiel läuft im regulären Modus mit variierendem Karma-Score.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Spiel starten und den Karma-Score des Spielers ändern.
+Auf Änderungen im Hintergrund achten.
+
+.Erwartetes Ergebnis:
+Der Hintergrund ändert sich entsprechend dem aktuellen Karma-Score des Spielers.

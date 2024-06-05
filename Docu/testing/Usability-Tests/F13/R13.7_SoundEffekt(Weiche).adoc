@@ -1,0 +1,15 @@
+== R 13.7: Soundeffekt Weiche
+.Beschreibung:
+Überprüfen, ob der Soundeffekt der Weiche korrekt abgespielt wird.
+
+.Annahmen und Voraussetzungen:
+Die Weiche wird getroffen.
+
+.Testdaten:
+Positionierung der Weiche.
+
+Auszuführende Schritte:
+Die Weiche wird getroffen.
+
+.Erwartetes Ergebnis:
+Der korrekte Soundeffekt wird abgespielt.

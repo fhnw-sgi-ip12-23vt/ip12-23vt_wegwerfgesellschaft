@@ -1,0 +1,183 @@
+= Coding Conventions
+
+== Verwendete Konventionen
+
+Die Einhaltung branchenüblicher Code Conventions ist von entscheidender Bedeutung, um die Lesbarkeit, Wartbarkeit und Konsistenz des Quellcodes zu gewährleisten.
+Im Folgenden sind die wichtigsten Konventionen aufgeführt, die in unserem Entwicklungsprojekt befolgt werden sollten:
+
+=== Namenskonventionen:
+****
+* Packagenamen werden immer in Kleinbuchstaben geschrieben.
+* Klassennamen folgen dem CamelCase-Stil.
+* Variablennamen verwenden den drinkingCamelCase-Stil.
+* Konstanten und Enums werden ausschließlich in GROSSBUCHSTABEN geschrieben.
+****
+=== Einrückung:
+****
+* Die Einrückung erfolgt mit 1 Tabulator oder 4 Leerschlägen pro Block.
+* Es wird darauf geachtet, keine Mehrfachdeklarationen pro Zeile zuzulassen.
+* Die öffnende Klammer befindet sich auf der vorherigen Zeile, während die schließende Klammer auf einer neuen Zeile platziert wird.
+****
+=== Leerzeichen:
+****
+* Leerzeichen werden gemäß den allgemeinen Konventionen gehandhabt, um die Klarheit zu verbessern.
+* Insbesondere bei Operatoren und nach Kommas wird darauf geachtet, angemessene Leerzeichen zu setzen.
+****
+=== Zeilenlänge:
+****
+* Jede Zeile im Code sollte eine maximale Länge von 120 Zeichen nicht überschreiten. Dies trägt dazu bei, einen horizontalen Scrollen zu vermeiden und die Codeansicht lesbar zu gestalten.
+****
+=== Verkettungen:
+****
+* Verkettungen werden auf neue Zeilen umgebrochen, um eine bessere Lesbarkeit zu gewährleisten.
+* Die neue Zeile beginnt mit einer Einrückung von 8 Leerzeichen, um die Struktur der Verkettung hervorzuheben.
+****
+Die Beachtung dieser Konventionen ist wesentlich für die Codequalität und erleichtert die Zusammenarbeit im Entwicklungsteam. Durch die Einheitlichkeit im Codestil wird nicht nur die Wartbarkeit verbessert, sondern auch die Lesbarkeit für alle Entwickler im Projekt gewährleistet.
+
+== Versionierungskonventionen
+Die korrekte Handhabung von Versionsnummern in Softwareprojekten
+ist entscheidend für eine transparente Entwicklung und eine reibungslose Zusammenarbeit im Team. Um sicherzustellen, dass Versionsnummern einheitlich und sinnvoll vergeben werden,
+sind klare Versionierungskonventionen notwendig.
+
+Für Versionierungskonventionen siehe https://fhnw-projecttrack.atlassian.net/wiki/spaces/IP1223vt6/pages/66256912/Software+Projekt+Management+Plan+SPMP+23#%F0%9F%97%93-Releases[Releases]
+
+== Code Komplexität
+
+=== Klassengrösse:
+Die Klassengröße ist eine Metrik, die die Anzahl der Zeilen Code in einer Klasse misst. Es wird oft empfohlen, Klassen auf eine moderate Größe zu beschränken, um die Lesbarkeit zu verbessern und sicherzustellen, dass jede Klasse eine klare und begrenzte Verantwortung hat. Zum Beispiel könnte festgelegt werden, dass Klassen nicht größer als 400 Zeilen sein sollten. GitLab kann so konfiguriert werden, dass es diese Grenze überwacht und bei Überschreitung Warnungen oder Fehler generiert.
+
+=== Methodengrösse:
+Die Größe von Methoden ist eine ähnliche Metrik, die die Anzahl der Zeilen Code in einer Methode misst. Kurze und fokussierte Methoden sind in der Regel einfacher zu verstehen und zu warten. Eine gängige Empfehlung ist beispielsweise, dass Methoden weniger als 60 Zeilen Code haben sollten. GitLab kann so eingestellt werden, dass es die Einhaltung dieser Regel überprüft und Feedback gibt, wenn eine Methode zu umfangreich wird.
+
+=== Verschachtelungstiefe:
+Die zyklomatische Komplexität ist eine Maßzahl für die Strukturkomplexität des Codes und misst die Anzahl der unabhängigen Pfade durch den Code. Eine niedrige zyklomatische Komplexität wird oft als Zeichen für gut strukturierten Code betrachtet. Zum Beispiel könnte festgelegt werden, dass die maximale Verschachtelungstiefe im Code nicht mehr als 3 betragen sollte. GitLab kann Tools integrieren, die diese Metrik analysieren und sicherstellen, dass die Komplexität im akzeptablen Bereich bleibt.
+
+
+== Dokumentation mit JavaDoc
+JavaDoc ist eine standardisierte Dokumentationsmethode für Java-Code. Jede Klasse sollte mindestens einen Klassenheader haben, der die Zuständigkeit und den Verwendungszweck der Klasse beschreibt. Dieser Header sollte mit JavaDoc-Kommentaren formatiert sein, um automatisch generierte Dokumentation zu unterstützen.
+
+----
+* Beschreibt die Funktionalität der Klasse XYZ.
+* Diese Klasse ist verantwortlich für ...
+* Weitere Details und Verwendungszwecke.
+*/
+public class XYZ {
+// Klasse implementieren
+}
+----
+
+=== Kommentare in Code-Blöcken
+Kommentare in Codeblöcken sollten sparsam, aber informativ sein. Sie sollten verwendet werden, um komplexe Algorithmen, ungewöhnliche Entscheidungen oder nicht offensichtliche Absichten zu erklären.
+----
+public void processData() {
+    // Iteriere über die Daten und führe Verarbeitungsschritte durch
+    for (Data data : dataList) {
+        // Verarbeitungsschritte für jedes Datenobjekt
+        processSingleData(data);
+    }
+}
+----
+
+== Organisation
+
+=== Packages
+Die Software sollte in fachlichen Packages organisiert sein, um eine klare Struktur und Trennung zwischen verschiedenen Funktionalitäten zu schaffen. Dies fördert eine leicht verständliche Codebasis und unterstützt die Wartbarkeit.
+----
+com.example.application
+    ├── controller
+    │   ├── UserController.java
+    │   └── ...
+    ├── service
+    │   ├── UserService.java
+    │   └── ...
+    ├── model
+    │   ├── UserModel.java
+    │   └── ...
+    └── ...
+----
+
+== Trennung von Zuständigkeiten
+
+Die Trennung von Zuständigkeiten ist ein grundlegendes Prinzip der Softwarearchitektur. Jede Klasse oder Methode sollte eine klare und abgegrenzte Aufgabe haben. Dies erleichtert die Wartung, Erweiterung und Wiederverwendbarkeit des Codes.
+
+----
+public class OrderService {
+    public void placeOrder(Order order) {
+        // Logik zur Auftragsabwicklung
+        validateOrder(order);
+        calculateTotal(order);
+        saveOrderToDatabase(order);
+        sendOrderConfirmation(order);
+    }
+
+    private void validateOrder(Order order) {
+        // Validierungsschritte für den Auftrag
+    }
+
+    // Weitere private Methoden für spezifische Aufgaben
+}
+----
+
+== Gitlab Konventionen
+Bei Änderungen im Gitlab-Repository muss eine Richtlinie eingehalten werden, damit der Verlauf des Projektes übersichtlich und nachvollziehbar bleibt.
+Somit wird die Problemfindung und Problemlösung deutlich effizienter durchgeführt. Folgende Konventionen gelten für das Projekt:
+
+=== Git Push Konventionen
+
+Die Einhaltung von klaren Konventionen beim Pushen von Änderungen auf Git ist entscheidend, um eine konsistente und effiziente Zusammenarbeit im Entwicklerteam sicherzustellen. Hier sind einige gängige Konventionen:
+
+=== Branch-Namenskonventionen:
+
+Die vorgeschlagene Namenskonvention für Branches in Softwareprojekten sieht vor, dass der Branchname identisch mit dem vollständigen Feature-Namen ist, der das Feature umfassend beschreibt. Beispielsweise wäre der Branchname für ein Feature `R1.4-GegenstandFälltZufällig-AufEntsorgungsstelle`. Für Bugfixes oder Hotfixes wird dieser vollständige Feature-Name beibehalten, jedoch ein entsprechendes Präfix hinzugefügt, um den Typ des Branches zu kennzeichnen. So würde ein Branch für einen Bugfix zum oben genannten Feature beispielsweise `bugfix/R1.4-GegenstandFälltZufällig-AufEntsorgungsstelle` lauten, während ein Hotfix entsprechend `hotfix/R1.4-GegenstandFälltZufällig-AufEntsorgungsstelle` benannt würde. Diese Konvention stellt sicher, dass der Zweck jedes Branches klar erkennbar ist, während gleichzeitig die Einheitlichkeit und Nachvollziehbarkeit der Branch-Namen gewahrt bleibt.
+
+=== Commit-Nachrichten:
+
+Schreibe klare, prägnante Commit-Nachrichten, die auf Englisch geschreiben sind. Beginne die Nachricht mit einer aussagekräftigen Überschrift, gefolgt von einer detaillierten Beschreibung.
+
+
+   feat: Add User Authentication
+   Implements user authentication using OAuth 2.0.
+
+
+==== Verwendung von Präfixen:
+
+Verwende Präfixe in der Commit-Überschrift, um den Typ der Änderung anzugeben. Gängige Präfixe sind "feat" für neue Features, "fix" für Fehlerbehebungen und "docs" für Dokumentation.
+
+   feat: Implement Custom Validation Function
+    Adds a new custom validation function for improved data verification.
+   fix: Fix Issue in Database Connection
+    Resolves a specific issue affecting the stability of the database connection.
+   docs: Update User Manual for Version 2.0
+    Revises the user manual to include instructions and details for version 2.0.
+
+
+==== Maximale Zeilenlänge
+
+Begrenze die Zeilenlänge der Commit-Überschrift auf etwa 50 bis 72 Zeichen, um eine bessere Lesbarkeit zu gewährleisten.
+
+=== Feature Branches und Merge Requests:
+
+Verwende separate Branches für neue Funktionen oder Bugfixes. Erstelle vor dem Zusammenführen (merge) von Feature Branches Merge Requests, um Änderungen zu überprüfen und zu diskutieren.
+
+=== Force Push Vermeiden:
+
+
+Es wird empfohlen, das Ausführen von Force Push auf Branches, die gemeinsam mit anderen Teammitgliedern genutzt werden, zu vermeiden. Der Einsatz von Force Push kann Änderungen in der Versionsgeschichte herbeiführen, was potenziell zu Konflikten innerhalb des Teams führen kann.
+
+
+== Sicherstellung der Einhaltung der Konventionen
+
+Die Sicherstellung der Einhaltung von Code-Konventionen ist von grundlegender Bedeutung für die Qualität und Wartbarkeit von Softwareprojekten. Zwei effektive Ansätze, um diese Einhaltung zu gewährleisten, sind Code-Reviews sowie Schulungen und Dokumentation.
+
+=== Code-Reviews:
+****
+Code-Reviews sind ein kritischer Schritt im Entwicklungsprozess, bei dem Teammitglieder den geschriebenen Code überprüfen. Dieser Prozess bietet eine hervorragende Gelegenheit, sicherzustellen, dass Code-Konventionen eingehalten werden. Während des Reviews können Teammitglieder auf spezifische Konventionen hinweisen und etwaige Abweichungen besprechen. Dies fördert nicht nur die Einhaltung der Konventionen, sondern ermöglicht auch den Wissensaustausch im Team. Die gemeinsame Überprüfung trägt dazu bei, konsistente Standards im gesamten Codebase zu etablieren.
+****
+=== Schulungen und Dokumentation:
+****
+Um sicherzustellen, dass das Team mit den geltenden Code-Konventionen vertraut ist, ist eine klare Schulung und Dokumentation unerlässlich. Schulungen können in Form von Workshops oder Schulungssitzungen durchgeführt werden, um die Bedeutung der Konventionen zu erklären und ihre Anwendung zu demonstrieren. Eine gut strukturierte Dokumentation sollte die Code-Konventionen detailliert beschreiben und Richtlinien für die Umsetzung bieten. Dies dient nicht nur als Nachschlagewerk, sondern auch als Orientierung für neue Teammitglieder.
+****
+Die Kombination von Code-Reviews und Schulungen schafft eine positive Dynamik für die Einhaltung von Code-Konventionen. Code-Reviews bieten eine praktische Überprüfung, während Schulungen und Dokumentation die theoretische Grundlage und das Verständnis für die Konventionen fördern. Durch diese integrierte Herangehensweise wird die Wahrscheinlichkeit erhöht, dass das Team die Konventionen nicht nur befolgt, sondern auch als integralen Bestandteil des Entwicklungsprozesses betrachtet.
+
+
+

@@ -1,0 +1,15 @@
+== R 13.3: Soundeffekt Gegenstand (Verpasst)
+.Beschreibung:
+Überprüfen, ob der Soundeffekt für einen verpassten Gegenstand korrekt abgespielt wird.
+
+.Annahmen und Voraussetzungen:
+Ein Gegenstand wird verpasst.
+
+.Testdaten:
+Verpasste Aktion.
+
+.Auszuführende Schritte:
+Ein Gegenstand wird verpasst.
+
+.Erwartetes Ergebnis:
+Der korrekte Soundeffekt wird abgespielt.

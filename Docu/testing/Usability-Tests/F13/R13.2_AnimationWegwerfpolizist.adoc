@@ -1,0 +1,15 @@
+== R 13.2: Animation Wegwerfpolizist
+.Beschreibung:
+Überprüfen, ob die Animation des Wegwerfpolizisten korrekt abgespielt wird.
+
+.Annahmen und Voraussetzungen:
+Der Wegwerfpolizist führt eine Bewegung aus.
+
+.Testdaten:
+Bewegung des Wegwerfpolizisten.
+
+.Auszuführende Schritte:
+Wegwerfpolizist führt eine Bewegung aus.
+
+.Erwartetes Ergebnis:
+Die Animation des Wegwerfpolizisten wird korrekt abgespielt.

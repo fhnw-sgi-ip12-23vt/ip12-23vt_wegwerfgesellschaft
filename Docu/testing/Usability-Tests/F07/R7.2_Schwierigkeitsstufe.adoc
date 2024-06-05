@@ -1,0 +1,15 @@
+== R 7.2: Schwierigkeitsstufe wählen
+.Beschreibung:
+Überprüfen, ob der Spieler eine Schwierigkeitsstufe wählen kann.
+
+.Annahmen und Voraussetzungen:
+Das Spiel befindet sich im Startscreen.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Schwierigkeitsstufe auswählen.
+
+.Erwartetes Ergebnis:
+Die ausgewählte Schwierigkeitsstufe wird erfolgreich übernommen.

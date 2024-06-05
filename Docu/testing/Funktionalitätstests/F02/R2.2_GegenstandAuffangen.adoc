@@ -1,0 +1,16 @@
+== R2.2: Gegenstand auffangen
+
+.Beschreibung
+Überprüfen, ob der Spieler einen Gegenstand erfolgreich auffangen kann.
+
+.Annahmen und Voraussetzungen
+Ein Gegenstand fällt in die Nähe des Wegwerfpolizisten.
+
+.Testdaten
+Gegenstand fällt.
+
+.Auszuführende Schritte
+
+Gegenstand auffangen.
+.Erwartetes Ergebnis
+Der Gegenstand wird erfolgreich aufgefangen.
