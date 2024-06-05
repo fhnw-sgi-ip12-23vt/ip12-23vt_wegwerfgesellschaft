@@ -1,0 +1,15 @@
+== R4.2: System zeigt die Spielzeit als Countdown oben links im Screen an
+
+.Beschreibung:
+Überprüfen, ob das System die Spielzeit als Countdown oben links im Bildschirm anzeigt.
+
+.Annahmen und Voraussetzungen:
+Das Spiel läuft und die Zeitmessung funktioniert korrekt.
+
+.Testdaten: -
+
+.Auszuführende Schritte:
+Starten des Spiels.
+
+.Erwartetes Ergebnis:
+Die verbleibende Spielzeit wird als Countdown oben links im Bildschirm angezeigt.

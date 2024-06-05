@@ -1,0 +1,50 @@
+[[section-quality-scenarios]]
+== Qualitätsanforderungen
+
+[role="arc42help"]
+****
+.Inhalt
+Dieser Abschnitt enthält möglichst alle Qualitätsanforderungen als Qualitätsbaum mit Szenarien.
+Die wichtigsten davon haben Sie bereits in Abschnitt 1.2 (Qualitätsziele) hervorgehoben.
+
+Nehmen Sie hier auch Qualitätsanforderungen geringerer Priorität auf, deren Nichteinhaltung oder -erreichung geringe Risiken birgt.
+
+.Motivation
+Weil Qualitätsanforderungen die Architekturentscheidungen oft maßgeblich beeinflussen, sollten Sie die für Ihre Stakeholder relevanten Qualitätsanforderungen kennen, möglichst konkret und operationalisiert.
+****
+
+.Weiterführende Informationen
+
+Siehe https://docs.arc42.org/section-10/[Qualitätsanforderungen] in der online-Dokumentation (auf Englisch!).
+
+=== Qualitätsbaum
+
+[role="arc42help"]
+****
+image::../../software(sad)/images/Qualitätsbaum.png[Qualitätsbaum]
+****
+
+=== Qualitätsszenarien
+
+[role="arc42help"]
+****
+
+[options="header"]
+|================================================================================================================================================================================================================================================================================================================================================================
+| ID  | Punkt             | Szenario | Sicherstellung
+| W01 | Erweitbarkeit (Softwarequalität)   ★  | Eine Fachperson mit genügenden Kenntnissen in Java und JavaFx sollte anhand der Ordnerstruktur und den Kommentaren/Verweisen den Aufbau verstehen und nicht funktionale Anpassungen, wie die Übersetzung der Texte im Spiel, sollen nach wenigen Stunden machbar sein. Für grosse Anpassungen reicht eine Woche. | Durch das mitgelieferte ReadMe, SAD und den beinhalteten Verweisen auf den Source-Code kann sich der Leser gut orientieren. Code-Kommentare helfen dem Entwickler zusätzlich, die Software schneller zu verstehen. https://gitlab.fhnw.ch/ip12-23vt/ip12-23vt_wegwerfgesellschaft/pi4j-example-fxgl/-/blob/Konfiguration/README.md?ref_type=heads[ReadMe]
+| W02 | Testbarkeit (Softwarequalität)     | Allfällige Anpassungen sollen klar und ersichtlich getestet werden können, ohne ein grosses Vorwissen dazu zu besitzen. Der Code ist modular gehalten und kann sich auf Änderungen anpassen, ohne dass die Funktionalität verloren geht. |
+| W03 | Lesbarkeit   (Softwarequalität)     | Eine Person kann anhand der Dokumentation mit JavaDoc nachvollziehen, wie die Struktur des Codes aufgebaut ist. Die Verständlichkeit ist der Person kein Hinderniss und kann mit den gegebenen Mitteln auskunft über das System geben (White-Box Wissen). | Die Einhaltung von Coding Conventions stellt einen Standard sicher, dass der Source-Code verständlich und nachvollziehbar bleibt. Zusätzlich wird während der Entwicklung Code Reviews durchgeführt, mindestens vor einem Merge eines Feature-Branch. https://gitlab.fhnw.ch/ip12-23vt/ip12-23vt_wegwerfgesellschaft/docu/-/blob/main/coding_conventions.adoc?ref_type=heads[Coding Conventions]
+| K01 | Interoperabilität (Softwarequalität) ★ | Der Spieler benutzt einen Joystick mit Buttons, um Inputs in das Spiel zu übertragen. Die Hardware funktioniert dabei einwandfrei und lässt keine validen Inputs verloren. Nicht definierte Inputs werden nicht aufgenommen. | Es ist eine robuste Input-Verarbeitung implementiert, die ungültige Inputs ohne Leistungsdefizite ignorieren kann. https://gitlab.fhnw.ch/ip12-23vt/ip12-23vt_wegwerfgesellschaft/pi4j-example-fxgl/-/blob/main/src/main/java/catchorwaste/controller/GPIOController.java?ref_type=heads[GPIOController]
+| K02 | Interoperabilität (Softwarequalität)| Die Arcadehardware kann auf andere Peripheriegeräte reagieren und interpretiert Inputs korrekt wie angegeben. | Der Input-Reader ist dokumentiert und definiert klar, über welchen Kanal welcher Input geleitet wird. Über den USB-Anschlüssen kann extern mittels Tastatur und Maus auf das System oder Spiel zugegriffen werden. https://gitlab.fhnw.ch/ip12-23vt/ip12-23vt_wegwerfgesellschaft/pi4j-example-fxgl/-/blob/main/src/main/java/catchorwaste/controller/GPIOController.java?ref_type=heads[GPIOController]  https://gitlab.fhnw.ch/ip12-23vt/ip12-23vt_wegwerfgesellschaft/pi4j-example-fxgl/-/blob/Konfiguration/README.md?ref_type=heads[ReadMe]
+| K03 | Interoperabilität (Softwarequalität)| Ein Problem mit der Verbindung der Hardware kann mithilfe des ReadMe und den Verweisen im Code behoben werden, sofern eine ähnlich aufzubauende Hardware gebraucht wird. | Das Handbuch, im ReadMe, erhilft möglichen Hardwarewechseln mit einer Dokumentation, wie die ursprünglichen Peripheriegeräte gesteuert werden. https://gitlab.fhnw.ch/ip12-23vt/ip12-23vt_wegwerfgesellschaft/pi4j-example-fxgl/-/blob/Konfiguration/README.md?ref_type=heads[ReadMe]
+| E01 | Reaktionszeit   (Produktqualität)  | Die Person bewegt den Wegwerfpolizisten und bemerkt keine Verzörgerung bei Richtungsänderungen oder bei Aufnahme der Fallenden Objekte. Somit kann der Spielspass gewährleistet werden. | Es werden Echtzeit-Tests durchgeführt unter realistischen Bedingungen. Das bedeutet, das ganze System wird für längere Zeit ausgestellt und läuft kontinuierlich.
+| B01 | Bedienung (Produktqualität) | Die Steuerung des Spiels erfolgt über einen robusten Joystick und klar reagierende Buttons. Eine kurze Einführungsvorschau beim Start des Spiels erklärt die grundlegenden Spielmechaniken und die Verwendung der Steuerelemente, sodass Spieler unabhängig von ihrem vorherigen Wissen intuitiv starten können. | Mit Usability Tests zum Spielerverhalten beim Start des Spiels kann die grundlegende Spielidee und Bedienung sichergestellt werden. https://docs.google.com/forms/d/e/1FAIpQLSdVf7mJPeeZc47Ka5Mtd8df3NdZNy6spOv58JA97l85f6K6fQ/viewform[Umfrage Zielgruppe]
+| B02 | Ästhetik  (Produktqualität)    ★    | Das Spiel präsentiert sich in einem ansprechenden Retro-Stil mit lebendigen Farben und charakteristischen Pixelgrafiken, die speziell auf die Zielgruppe der 13- bis 16-Jährigen abgestimmt sind. Diese visuelle Gestaltung unterstützt das nostalgische Flair. | Das Retro-Design wird auf sämtlichen Produkten unserer Seite vertreten sein und ist ein einzigartiges Image. Auf Feedback von der Zielgruppe wurden allfällige Änderungen vollzogen.
+| B03 | Ästhetik  (Produktqualität) | Der Arcadekasten ist visuell ansprechend für die Zielgruppe und erweckt Neugier. Der Kasten soll einfach verständlich aufgebaut werden, damit keine Misverständnisse mit der Bedienung des Spiels erscheinen. | Dies kann mit den User-Tests belegt werden, ob die Anforderungen dafür erfüllt worden sind. Aus Seiten der Kundschaft wurde ein positives Feedback eingeholt. https://fhnw-projecttrack.atlassian.net/wiki/spaces/IP1223vt6/pages/63900641/Usability+Dossier#Auswertung[Usability Dossier]
+| Z01 | Toleranz (Softwarequalität)          | Die Software des Arcadekastens ist darauf ausgelegt, Fehleingaben effektiv zu handhaben. Bewegungen des Joysticks nach oben und unten haben keine Auswirkungen im Spiel, wodurch unbeabsichtigte Aktionen vermieden werden. Das System ist stabil konzipiert und gewährleistet, dass auch bei intensiver Nutzung durch viele Spieler keine Leistungseinbußen auftreten.|  Mithilfe von diversen Tests können alle Punkte abgedeckt werden. https://fhnw-projecttrack.atlassian.net/wiki/spaces/IP1223vt6/pages/140476445/Testmanagement[Testmanagement]
+| F01 | Angemessenheit (Produktqualität)   | Das Spiel bietet eine ausgewogene Herausforderung, die weder zu leicht noch zu schwer für die Altersgruppe der 13- bis 15-Jährigen ist. Es kombiniert Elemente, die sowohl das Geschick als auch die Reaktionsfähigkeit fordern, und hält die Spieler mit zunehmend schwierigeren Levels engagiert, während es gleichzeitig Spass macht. | Eine regelmässige Überprüfung im Team für die Schwierigkeit ist nach jedem Start auf der Hardware gedacht. Die Meinung der Zielgruppe wird berücksichtigt und anhand dieser wird die Schwierigkeit angepasst. https://docs.google.com/forms/d/e/1FAIpQLSdVf7mJPeeZc47Ka5Mtd8df3NdZNy6spOv58JA97l85f6K6fQ/viewform[Umfrage Zielgruppe]
+| F02 | Funktionalität (Produktqualität)   | Unabhängig von der Spieldauer lässt das System kontinuierlich Gegenstände herab, die vom Spieler gefangen werden müssen. Diese Mechanik ist zentral für das Gameplay und funktioniert fehlerfrei, um ein durchgängiges und unterbrechungsfreies Spielerlebnis zu gewährleisten. | Durch Tests konnte ein nicht funktionales Eintreten ausgeschlossen werden. Bei allfälligen Probleme kann das System neugestartet werden und das Spiel wird automatisch gestartet.
+|================================================================================================================================================================================================================================================================================================================================================================
+
+****

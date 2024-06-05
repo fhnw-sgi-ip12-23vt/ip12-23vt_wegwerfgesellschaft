@@ -1,0 +1,15 @@
+== R 6.3: Zugang zur Hardware
+.Beschreibung:
+Überprüfen, ob die Mitarbeiter leicht an die Hardware des Kastens gelangen können.
+
+.Annahmen und Voraussetzungen:
+Der Kasten ist in Betrieb.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Zugriff auf die Hardware des Kastens versuchen.
+
+.Erwartetes Ergebnis:
+Die Mitarbeiter können leicht auf die Hardware des Kastens zugreifen.

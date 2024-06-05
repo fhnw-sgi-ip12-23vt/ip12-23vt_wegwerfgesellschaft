@@ -1,0 +1,15 @@
+== R 13.5: Animation Gegenstand
+.Beschreibung:
+Überprüfen, ob die Animation für einen Gegenstand korrekt abgespielt wird.
+
+.Annahmen und Voraussetzungen:
+Ein Gegenstand führt eine Aktion aus.
+
+.Testdaten:
+Aktion des Gegenstands.
+
+.Auszuführende Schritte:
+Ein Gegenstand führt eine Aktion aus.
+
+.Erwartetes Ergebnis:
+Die Animation des Gegenstands wird korrekt abgespielt.

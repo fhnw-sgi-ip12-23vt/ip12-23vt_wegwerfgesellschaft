@@ -1,0 +1,15 @@
+== R 8.3: Vergleich produzierte Gegenstände / wiedergewonnene Gegenstände anzeigen
+.Beschreibung:
+Überprüfen, ob das System einen Vergleich zwischen produzierten Gegenständen und wiedergewonnenen Gegenständen anzeigen kann.
+
+.Annahmen und Voraussetzungen:
+Das Spiel befindet sich im Endscreen.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Option "Vergleich anzeigen" auswählen.
+
+.Erwartetes Ergebnis:
+Der Vergleich wird erfolgreich angezeigt.

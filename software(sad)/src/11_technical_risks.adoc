@@ -1,0 +1,33 @@
+[[section-technical-risks]]
+== Risiken und technische Schulden
+
+[role="arc42help"]
+
+=== Technische Schuld: Inkompatibilität der Software mit Raspberry Pi 5
+
+Hintergrund:
+
+Die aktuelle Software, entwickelt für den Raspberry Pi 4 unter Verwendung der Pi4J-Bibliothek, könnte nach einem Upgrade auf Raspberry Pi 5 Inkompatibilitätsprobleme aufweisen. Dies liegt daran, dass Pi4J möglicherweise nicht vollständig mit der neueren Hardware des Raspberry Pi 5 kompatibel ist.
+
+==== Eventualfallplanung
+
+Für den Fall, dass die Software auf dem Raspberry Pi 5 nicht wie erwartet funktioniert, könnten folgende Schritte in Betracht gezogen werden:
+
+- Downgrade auf Raspberry Pi 4: Sollte die Software auf dem Raspberry Pi 5 nicht stabil laufen, könnten wir als kurzfristige Lösung auf die ältere Hardware, den Raspberry Pi 4, zurückgreifen. Dies würde die Stabilität und Funktionalität der Software gewährleisten, bis eine kompatible Lösung für den Raspberry Pi 5 gefunden oder entwickelt wird.
+- Reduzierung der Auflösung und anderer leistungsintensiver Features: Um die Anforderungen an die Hardware zu verringern und eine gewisse Funktionalität zu erhalten, könnten
+Anpassungen in der Software vorgenommen werden, die die Systemlast reduzieren.
+
+
+=== Risiko: Unzureichende Performance und übermäßige Ressourcennutzung
+
+Hintergrund:
+
+Die Anforderungen an unser Arcade-Spiel umfassen eine hohe Effizienz und flüssige Spielabläufe, die auf einer Vielzahl von Hardwarekonfigurationen funktionieren sollen. Es besteht das Risiko, dass unsere aktuelle Implementierung in Java nicht effizient genug ist, um eine akzeptable Leistung auf Standardhardware zu erreichen. Dies könnte zu einer schwachen Performance führen, die sich in langen Ladezeiten, niedrigen Bildwiederholraten und einer allgemeinen Beeinträchtigung der Spielbarkeit äußert. Bei öffentlichen Vorführungen könnte dies dazu führen, dass das Spiel als unausgereift oder unprofessionell wahrgenommen wird, was dem Ansehen des Projekts schaden könnte.
+
+==== Eventualfallplanung
+Falls die optimale Leistung nicht erreicht werden kann, könnten wir folgende Maßnahmen in Betracht ziehen:
+
+- Reduzierung der Grafikauflösung und Detailstufe: Durch Herabsetzen der Auflösung und der grafischen Komplexität könnten wir die Belastung der Hardware verringern und die Frame-Rate verbessern.
+- Vereinfachung der Spiellogik: Komplexe Berechnungen und Algorithmen könnten vereinfacht werden, um die CPU-Belastung zu reduzieren.
+
+

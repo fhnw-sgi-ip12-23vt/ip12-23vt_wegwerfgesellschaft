@@ -1,0 +1,16 @@
+== R4.1: System beendet das Spiel nach drei Minuten
+
+.Beschreibung
+Überprüfen, ob das System einen Gegenstand in einem Cart erfolgreich zurück zum Dorf führen kann.
+
+.Annahmen und Voraussetzungen
+Ein Gegenstand befindet sich im Cart.
+
+.Testdaten
+Gegenstand im Cart.
+
+.Auszuführende Schritte
+Cart zum Dorf bewegen.
+
+.Erwartetes Ergebnis
+Der Gegenstand wird erfolgreich zurück zum Dorf geführt.

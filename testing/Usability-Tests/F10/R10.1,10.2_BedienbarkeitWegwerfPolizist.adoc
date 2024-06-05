@@ -1,0 +1,34 @@
+== R 10.1: Zwei Wegwerfpolizisten bedienbar
+,Beschreibung:
+Überprüfen, ob das System zwei Wegwerfpolizisten gleichzeitig im Multiplayer-Modus bedienbar macht.
+
+.Annahmen und Voraussetzungen:
+Das Spiel läuft im Multiplayer-Modus.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Multiplayer-Modus aktivieren.
+Zwei Spieler starten das Spiel und versuchen, jeweils einen Wegwerfpolizisten zu bedienen.
+
+.Erwartetes Ergebnis:
+Beide Spieler können ihre Wegwerfpolizisten unabhängig voneinander steuern.
+
+
+== R 10.2: Ein Wegwerfpolizisten bedienbar
+,Beschreibung:
+Überprüfen, ob das System zwei Wegwerfpolizisten gleichzeitig im Singleplayer-Modus bedienbar macht.
+
+.Annahmen und Voraussetzungen:
+Das Spiel läuft im Singleplayer-Modus.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Singleplayer-Modus aktivieren.
+Spieler starten das Spiel und versuchen, jeweils einen Wegwerfpolizisten zu bedienen.
+
+.Erwartetes Ergebnis:
+Beide Spieler können ihre Wegwerfpolizisten unabhängig voneinander steuern.

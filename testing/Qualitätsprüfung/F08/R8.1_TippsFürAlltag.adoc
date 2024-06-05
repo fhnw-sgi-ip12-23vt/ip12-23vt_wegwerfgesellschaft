@@ -1,0 +1,15 @@
+== R 7.3: Multiplayer / Singleplayer wählen (optional)
+.Beschreibung:
+Überprüfen, ob der Spieler zwischen Multiplayer und Singleplayer wählen kann (optional).
+
+.Annahmen und Voraussetzungen:
+Das Spiel befindet sich im Startscreen.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Option für Multiplayer oder Singleplayer auswählen (falls vorhanden).
+
+.Erwartetes Ergebnis:
+Die ausgewählte Option wird erfolgreich übernommen (falls vorhanden).

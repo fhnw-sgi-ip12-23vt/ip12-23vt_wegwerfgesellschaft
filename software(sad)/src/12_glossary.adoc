@@ -1,0 +1,73 @@
+[[section-glossary]]
+== Glossar
+
+[role="arc42help"]
+****
+.Inhalt
+Die wesentlichen fachlichen und technischen Begriffe, die Stakeholder im Zusammenhang mit dem System verwenden.
+
+Nutzen Sie das Glossar ebenfalls als Übersetzungsreferenz, falls Sie in mehrsprachigen Teams arbeiten.
+
+.Motivation
+Sie sollten relevante Begriffe klar definieren, so dass alle Beteiligten
+
+* diese Begriffe identisch verstehen, und
+* vermeiden, mehrere Begriffe für die gleiche Sache zu haben.
+
+.Form
+* Zweispaltige Tabelle mit <Begriff> und <Definition>
+* Eventuell weitere Spalten mit Übersetzungen, falls notwendig.
+
+.Weiterführende Informationen
+
+Siehe https://docs.arc42.org/section-12/[Glossar] in der online-Dokumentation (auf Englisch!).
+
+****
+
+[cols="e,2e" options="header"]
+|===
+| Begriff | Definition
+
+| Stakeholder
+| Personen oder Gruppen, die ein Interesse am Projekt haben und deren Anforderungen und Erwartungen berücksichtigt werden müssen. Stakeholder können z.B. Endbenutzer, Entwickler oder das Management sein.
+
+| Java
+| Eine weitverbreitete, objektorientierte Programmiersprache, die speziell für Plattformunabhängigkeit entwickelt wurde und in vielen Bereichen der Softwareentwicklung eingesetzt wird.
+
+| JavaFx
+| Eine Java-Bibliothek zur Erstellung von grafischen Benutzeroberflächen (GUI) für Desktop-Anwendungen. JavaFX bietet umfangreiche Funktionen für die Gestaltung moderner, interaktiver Oberflächen.
+
+| Booten
+| Der Prozess des Startens eines Computersystems, bei dem das Betriebssystem geladen und die grundlegenden Systemfunktionen initialisiert werden.
+
+| Raspberry Pi
+| Ein kostengünstiger, kreditkartengroßer Einplatinencomputer, der häufig für Bildungszwecke und in Projekten der Elektronik und Programmierung verwendet wird.
+
+| Coding Conventions
+| Standards und Best Practices, die während der Softwareentwicklung befolgt werden sollen, um konsistenten und wartbaren Code zu gewährleisten.
+
+| VCS
+| Version Control System (Versionskontrollsystem) ist ein System zur Verwaltung von Änderungen an Dokumenten, Computerprogrammen, großen Websites und anderen Sammlungen von Informationen.
+
+| FXGL
+| Ein Java-Framework für die Entwicklung von 2D-Spielen, das auf JavaFX aufbaut und eine einfache Möglichkeit zur Erstellung von Spielen bietet.
+
+| Proof of Concept
+| Ein Machbarkeitsnachweis, der demonstriert, dass eine Idee, ein Konzept oder eine Technologie tatsächlich umsetzbar ist.
+
+| Qualitätsanforderungen
+| Anforderungen an die Qualität eines Systems, die oft grundlegende Architekturentscheidungen beeinflussen. Diese Anforderungen umfassen Aspekte wie Leistung, Zuverlässigkeit und Benutzerfreundlichkeit.
+
+| RUP
+| Rational Unified Process, ein iteratives Softwareentwicklungsmodell, das von Rational Software Corporation entwickelt wurde. Es betont die Bedeutung von iterativer Entwicklung, Architektur und Anforderungen.
+
+| MVC
+| Model-View-Controller, ein Entwurfsmuster, das die Anwendung in drei Hauptkomponenten unterteilt: Modell (Daten), Ansicht (Benutzeroberfläche) und Controller (Steuerungslogik). Dies erleichtert die Trennung von Anliegen und die Wartung des Codes.
+
+| White-/Blackbox
+| Whitebox-Beschreibungen geben Einblick in die innere Struktur eines Systems oder Bausteins, während Blackbox-Beschreibungen nur das äußere Verhalten ohne interne Details darstellen.
+
+| GPIO
+| General Purpose Input/Output, eine Schnittstelle auf Mikrocontrollern und Computern wie dem Raspberry Pi, die zur Steuerung von und Kommunikation mit anderen elektronischen Komponenten verwendet wird.
+|===
+

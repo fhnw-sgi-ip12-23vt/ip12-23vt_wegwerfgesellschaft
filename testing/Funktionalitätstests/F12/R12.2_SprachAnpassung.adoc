@@ -1,0 +1,16 @@
+== R 12.2: Anpassung der Sprache
+.Beschreibung:
+Überprüfen, ob Mitarbeiter die Sprache im System erfolgreich anpassen können.
+
+.Annahmen und Voraussetzungen:
+Das Sprachmenü ist zugänglich.
+
+.Testdaten:
+Bestimmte Sprache für die Anpassung.
+
+.Auszuführende Schritte:
+Sprachmenü öffnen.
+Sprache anpassen.
+
+.Erwartetes Ergebnis:
+Die Sprache im System wird erfolgreich gemäß den Eingaben angepasst.

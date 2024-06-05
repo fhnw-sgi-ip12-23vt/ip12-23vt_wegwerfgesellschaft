@@ -1,0 +1,15 @@
+== R 5.2: Verminderung des Karma-Scores
+.Beschreibung:
+Überprüfen, ob das System den Karma-Score vermindert, wenn der Spieler eine negative Aktion ausführt.
+
+.Annahmen und Voraussetzungen:
+Der Spieler hat eine negative Aktion im Spiel ausgeführt.
+
+.Testdaten:
+Negative Aktion des Spielers.
+
+.Auszuführende Schritte:
+Ausführen der negativen Aktion im Spiel.
+
+.Erwartetes Ergebnis:
+Der Karma-Score des Spielers vermindert sich.

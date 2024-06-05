@@ -1,0 +1,15 @@
+== R 6.2: Robustheit des Kastens
+.Beschreibung:
+Überprüfen, ob der Kasten grobe Benutzung aushält.
+
+.Annahmen und Voraussetzungen:
+Der Kasten ist in Betrieb.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Anwenden grober Benutzung auf den Kasten.
+
+.Erwartetes Ergebnis:
+Der Kasten hält grober Benutzung stand.

@@ -1,0 +1,15 @@
+== R 13.1: Soundeffekt Wegwerfpolizist (Beim Fangen)
+.Beschreibung:
+Überprüfen, ob der Soundeffekt beim Fangen eines Gegenstands durch den Wegwerfpolizisten korrekt abgespielt wird.
+
+.Annahmen und Voraussetzungen:
+Der Wegwerfpolizist fängt einen Gegenstand.
+
+.Testdaten:
+Fangaktion durch den Wegwerfpolizisten.
+
+.Auszuführende Schritte:
+Wegwerfpolizist fängt einen Gegenstand.
+
+.Erwartetes Ergebnis:
+Der korrekte Soundeffekt wird abgespielt.

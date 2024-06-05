@@ -1,0 +1,16 @@
+== R 9.1: Mehr Gegenstände fallen schneller
+.Beschreibung:
+Überprüfen, ob das System bei erhöhtem Schwierigkeitsgrad mehr Gegenstände schneller fallen lässt.
+
+.Annahmen und Voraussetzungen:
+Das Spiel läuft im Modus mit erhöhtem Schwierigkeitsgrad.
+
+.Testdaten:
+-
+
+.Auszuführende Schritte:
+Schwierigkeitsgrad auf "Erhöht" einstellen.
+Das Spiel starten und beobachten, wie Gegenstände fallen.
+
+.Erwartetes Ergebnis:
+Mehr Gegenstände fallen schneller.

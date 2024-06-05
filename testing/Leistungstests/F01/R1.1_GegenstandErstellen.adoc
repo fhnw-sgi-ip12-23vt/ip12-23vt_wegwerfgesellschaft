@@ -1,0 +1,13 @@
+== R1.1: Gegenstand erstellen
+
+Beschreibung: Überprüfen, ob ein Gegenstand erfolgreich erstellt wird.
+
+Annahmen und Voraussetzungen: Das System ist ordnungsgemäß konfiguriert.
+
+Testdaten: Gültige Informationen für Kategorie und Zustand des Gegenstands.
+
+Auszuführende Schritte:
+
+. Gegenstand erstellen
+
+Erwartetes Ergebnis: Der Gegenstand wird erstellt, und die Informationen sind korrekt im System gespeichert.

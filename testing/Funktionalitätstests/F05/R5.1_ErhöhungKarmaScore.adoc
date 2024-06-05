@@ -1,0 +1,14 @@
+== R 5.1: Erhöhung des Karma-Scores
+.Beschreibung:
+Überprüfen, ob das System den Karma-Score erhöht, wenn der Spieler eine positive Aktion ausführt.
+
+.Annahmen und Voraussetzungen: Der Spieler hat eine positive Aktion im Spiel ausgeführt.
+
+.Testdaten:
+Positive Aktion des Spielers.
+
+.Auszuführende Schritte:
+Ausführen der positiven Aktion im Spiel.
+
+.Erwartetes Ergebnis:
+Der Karma-Score des Spielers erhöht sich.

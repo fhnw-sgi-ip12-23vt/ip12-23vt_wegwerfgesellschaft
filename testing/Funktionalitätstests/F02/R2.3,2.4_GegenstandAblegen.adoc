@@ -1,0 +1,16 @@
+== R2.3/2.4: Gegenstand in Cart ablegen
+
+.Beschreibung
+Überprüfen, ob der Spieler einen aufgefangenen Gegenstand erfolgreich links in den Cart ablegen kann.
+
+.Annahmen und Voraussetzungen
+Ein Gegenstand wurde erfolgreich aufgefangen.
+
+.Testdaten
+Aufgefangener Gegenstand.
+
+.Auszuführende Schritte
+
+.Gegenstand links in den Cart ablegen.
+Erwartetes Ergebnis
+Der Gegenstand wird erfolgreich im Cart abgelegt.

@@ -1,0 +1,111 @@
+[[section-introduction-and-goals]]
+==	Einführung und Ziele
+
+[role="arc42help"]
+****
+Beschreibt die wesentlichen Anforderungen und treibenden Kräfte, die bei der Umsetzung der Softwarearchitektur und Entwicklung des Systems berücksichtigt werden müssen.
+
+Dazu gehören:
+
+* zugrunde liegende Geschäftsziele,
+* wesentliche Aufgabenstellungen,
+* wesentliche funktionale Anforderungen,
+* Qualitätsziele für die Architektur und
+* relevante Stakeholder und deren Erwartungshaltung.
+****
+
+=== Problemstellung
+
+[role="arc42help"]
+****
+.Inhalt
+Kurzbeschreibung der fachlichen Aufgabenstellung, treibenden Kräfte, Extrakt (oder Abstract) der Anforderungen.
+Verweis auf (hoffentlich vorliegende) Anforderungsdokumente (mit Versionsbezeichnungen und Ablageorten).
+
+.Motivation
+Aus Sicht der späteren Nutzung ist die Unterstützung einer fachlichen Aufgabe oder Verbesserung der Qualität der eigentliche Beweggrund, ein neues System zu schaffen oder ein bestehendes zu modifizieren.
+
+.Form
+Kurze textuelle Beschreibung, eventuell in tabellarischer Use-Case Form.
+Sofern vorhanden, sollte die Aufgabenstellung Verweise auf die entsprechenden Anforderungsdokumente enthalten.
+
+Halten Sie diese Auszüge so knapp wie möglich und wägen Sie Lesbarkeit und Redundanzfreiheit gegeneinander ab.
+
+
+.Weiterführende Informationen
+Siehe https://docs.arc42.org/section-1/[Anforderungen und Ziele] in der online-Dokumentation (auf Englisch!).
+
+****
+
+=== Qualitätsziele
+
+[role="arc42help"]
+****
+.Inhalt
+Die Top-3 bis Top-5 der Qualitätsanforderungen für die Architektur, deren Erfüllung oder Einhaltung den maßgeblichen Stakeholdern besonders wichtig sind.
+Gemeint sind hier wirklich Qualitätsziele, die nicht unbedingt mit den Zielen des Projekts übereinstimmen.
+Beachten Sie den Unterschied.
+
+.Motivation
+Weil Qualitätsziele grundlegende Architekturentscheidungen oft maßgeblich beeinflussen, sollten Sie die für Ihre Stakeholder relevanten Qualitätsziele kennen, möglichst konkret und operationalisierbar.
+
+[cols="1,2",options="header"]
+|===
+| *Ziel* | *Messkriterium*
+
+| *Z01: Aufklärung / Aufzeigen von Wegwerfalternativen*
+| Den Spielern bewusst machen, dass die Herstellung und die Lieferung von diversen Produkten sehr viel Energie braucht, und Ansätze aufzeigen, wie man sich von der Wegwerfgesellschaft abgrenzen kann.
++
+Testergebnisse mit Jugendlichen vor und nach der Benutzung des Spiels, wobei mehr als 50% des Tests richtig sein sollen.
+
+| *Z02: Spaß / Attraktion*
+| Das Produkt soll äußerlich positiv auffallend sein und der Spielmechanismus so konzeptioniert, dass die Spieler während dem Verwenden Freude entwickeln.
++
+Testergebnisse mit Jugendlichen vor und nach der Benutzung des Spiels, wobei der Wert größer als 7/10 sein soll.
+
+| *Z03: Verständlichkeit / Spielbarkeit*
+| Die Spieler sollten nach wenigen Sekunden das Prinzip vom Spiel verstanden haben und die Informationen innerhalb von 3-4 Minuten aufnehmen können.
++
+Testergebnisse mit Jugendlichen, die überprüfen, wie schnell sie das Konzept verstanden haben, wobei das Prinzip innerhalb von 60 Sekunden verstanden sein soll.
+
+| *Z04: Abgestimmte Hardware*
+| Sicherstellen, dass die Hardware wartungsfreundlich (Zugänglichkeit und Schnittstellen), kundengerecht (Größe und Gewicht) und robust ist.
+
+|===
+
+****
+
+=== Stakeholder
+
+[role="arc42help"]
+****
+.Inhalt
+.Motivation
+Sie sollten die Projektbeteiligten und -betroffenen kennen, sonst erleben Sie später im Entwicklungsprozess Überraschungen.
+Diese Stakeholder bestimmen unter anderem Umfang und Detaillierungsgrad der von Ihnen zu leistenden Arbeit und Ergebnisse.
+            w
+[cols="1,1"]
+|===
+|Rolle |Erwartungshaltung
+
+|Schulklassen
+|Ein einfaches und selbsterklärendes Spiel
++
+Spaß beim Spielen
+
+|Product Owners
+|Soziale Interaktion
++
+Bewusstsein der Wegwerfgesellschaft schaffen
+
+|Software Architekten
+|wollen ein Gefühl bekommen, wie Architekturdokumentation für ein konkretes System aussehen kann
++
+Technische Rahmenbedingungen und Anforderungen erfüllen
+
+|Entwicklungsteam
+|Nachvollziehbarkeit mit Softwaware-Architektur Dokument (SAD)
++
+Qualität von Source Code erhöhen
+|===
+****

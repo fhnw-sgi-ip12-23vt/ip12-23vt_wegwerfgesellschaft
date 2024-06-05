@@ -1,0 +1,16 @@
+== R3.1: Weiche per Knopfdruck stellen
+
+.Beschreibung
+Überprüfen, ob der Spieler eine Weiche erfolgreich per Knopfdruck stellen kann.
+
+.Annahmen und Voraussetzungen
+Die Weiche ist funktionsfähig und wurde erfolgreich erstellt.
+
+.Testdaten
+Knopfdruck.
+
+.Auszuführende Schritte
+Weiche per Knopfdruck stellen.
+
+.Erwartetes Ergebnis
+Die Weiche wird erfolgreich gestellt.

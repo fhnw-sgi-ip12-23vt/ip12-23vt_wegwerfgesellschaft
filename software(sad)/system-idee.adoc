@@ -1,0 +1,70 @@
+= Systemidee des Projekts "Wegwerfgesellschaft"
+
+== Kernaufgabe des Systems
+
+=== Beschreibung:
+Die Kernaufgabe unseres Systems ist den Benutzern zu zeigen, wie wichtig die Wegwerfgesellschaft ist.
+Mit dieser Anwendung, in diesem Fall ein interaktives Spiel, schaffen wir ein Bewusstsein für die negativen Auswirkungen der Wegwerfgesellschaft zu schaffen.
+Das Spiel verwendet JavaFX und einen Joystick für eine ansprechende Benutzererfahrung, während es die Botschaft der Ressourcenschonung vermittelt.
+
+https://fhnw-projecttrack.atlassian.net/wiki/spaces/IP1223vt6/pages/63900519/Produktvision[Vollständige Beschreibung zur Produktvision]
+
+==== Wichtigsten Begriffe der Fachdomäne:
+- Interaktives Spiel
+- Benutzererfahrung (UX)
+- Raspberry Pi
+- JavaFX
+- Joystick
+
+== Kategorie von System
+Dieses System ist ein "interaktives Multimedia-System", das Text, Bilder, Audio und Video miteinander verbindet und gleichzeitig eine interaktive Benutzererfahrung bietet.
+Das bedeutet, dass der Benutzer auch mit dem System beeinflussen kann.
+Dies geschieht in diesem Fall mit einem Joystick.
+
+== Wesentliche Qualitätsanforderungen
+
+=== Leistung
+==== Ladezeit des Spiels
+
+* *Qualitätsanforderung:* Die Ladezeit des Spiels sollte unter X Sekunden liegen, um eine schnelle und nahtlose Benutzererfahrung zu gewährleisten.
+* *Ziel:* Die Ladezeit des Spiels soll unter X Sekunden liegen, um sicherzustellen, dass Spieler schnell ins Spiel kommen.
+* *Messung:* Verwendung von Ladezeit-Analysetools und Erfassung der Zeit, die benötigt wird, um das Spiel zu starten.
+
+==== Zuverlässigkeit
+===== Stabilität während Spielsitzung
+
+* *Qualitätsanforderung:* Das Spiel sollte während einer durchschnittlichen Spielsitzung von X Stunden nicht abstürzen.
+* *Ziel:* Eine zuverlässige Spielerfahrung ohne häufige Abstürze.
+* *Messung:* Überwachung der Anzahl der Abstürze pro Spielsitzung.
+
+=== Benutzerfreundlichkeit
+==== Intuitive Benutzeroberfläche
+
+* *Qualitätsanforderung:* Die Benutzeroberfläche sollte für Spieler aller Altersgruppen intuitiv und leicht verständlich sein.
+* *Ziel:* Ein leicht verständliches Design, das die Nutzung für verschiedene Altersgruppen ermöglicht.
+* *Messung:* Durchführung von Benutzertests und Bewertungen der Benutzeroberfläche.
+
+=== Benutzeroberfläche (UI) und Interaktion
+
+==== Reaktion auf Joystick- und Tastensteuerung
+
+* *Qualitätsanforderung:* Das Spiel sollte präzise und sofort auf Joystick- und Tastensteuerung reagieren.
+* *Ziel:* Eine nahtlose und reaktionsschnelle Steuerung für Spieler, die Joystick und Tasten verwenden.
+* *Messung:* Überwachung der Verzögerung zwischen Eingabe und Reaktion.
+
+==== Klare visuelle Darstellung von Joystick- und Tastenaktionen
+
+* *Qualitätsanforderung:* Joystick- und Tastenaktionen sollten klar und deutlich auf dem Bildschirm dargestellt werden.
+* *Ziel:* Spieler sollen ihre Eingaben visuell erkennen und nachverfolgen können.
+* *Messung:* Beurteilung der Sichtbarkeit und Klarheit von UI-Elementen für Joystick- und Tasteneingaben.
+
+https://fhnw-projecttrack.atlassian.net/wiki/spaces/IP1223vt6/pages/63900538/Requirements#Qualit%C3%A4tsanforderungen[Vollständige Beschreibung zu Qualitätsanforderungen]
+
+== Relevante Stakeholder
+
+Unsere wichtigste Stakeholders sind auf https://fhnw-projecttrack.atlassian.net/wiki/spaces/IP1223vt6/pages/63900603/Stakeholder+Management[Confluence] in Form einer Tabelle dargestellt.
+
+== Externe Hilfe
+
+* Die Forschungsergebnisse und Studien zum Thema Nachhaltigkeit und Wegwerfgesellschaft wird von Primeo Energie als JSON-Datei abgegeben.
+* Diese Ergebnisse werden für die Berechnungen im Punktesystem benutzt.

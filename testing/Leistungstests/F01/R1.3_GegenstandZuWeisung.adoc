@@ -1,0 +1,13 @@
+== R1.3: Gegenstand Zustand  zuweisen
+
+Beschreibung: Überprüfen, ob einem Gegenstand erfolgreich ein Zustand zugewiesen wird.
+
+Annahmen und Voraussetzungen: Der Gegenstand wurde erfolgreich erstellt (R1.1).
+
+Testdaten: Bestimmte Zustand für den Gegenstand.
+
+Auszuführende Schritte:
+
+. Zustand des Gegenstands anschauen
+
+Erwartetes Ergebnis: Der Zustand wird erfolgreich dem Gegenstand zugeordnet.

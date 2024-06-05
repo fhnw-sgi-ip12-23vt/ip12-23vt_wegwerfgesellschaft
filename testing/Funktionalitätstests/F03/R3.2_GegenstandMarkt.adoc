@@ -1,0 +1,16 @@
+== R3.2: Gegenstand in einem Cart zum Markt führen
+
+.Beschreibung
+Überprüfen, ob das System einen Gegenstand in einem Cart erfolgreich zum Markt führen kann.
+
+.Annahmen und Voraussetzungen
+Ein Gegenstand befindet sich im Cart.
+
+.Testdaten
+Gegenstand im Cart.
+
+.Auszuführende Schritte
+Cart zum Markt bewegen.
+
+.Erwartetes Ergebnis
+Der Gegenstand wird erfolgreich zum Markt geführt.
