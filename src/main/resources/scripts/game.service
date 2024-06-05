@@ -1,0 +1,15 @@
+[Unit]
+Description=Run CatchOrWaste on Raspberry Pi
+After=graphical.target
+
+[Service]
+Type=simple
+Environment="Display=:0"
+ExecStartPre=/bin/sleep 15
+ExecStart=/home/pi4j/deploy/start-app.sh
+Restart=on-failure
+RestartSec=10s
+User=pi4j
+
+[Install]
+WantedBy=graphical.target
