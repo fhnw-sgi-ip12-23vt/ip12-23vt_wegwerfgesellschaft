@@ -10,18 +10,13 @@ Die Bausteinsicht zeigt die statische Zerlegung des Systems in Bausteine (Module
 Diese Sicht sollte in jeder Architekturdokumentation vorhanden sein.
 In der Analogie zum Hausbau bildet die Bausteinsicht den _Grundrissplan_.
 
-.Motivation
-Behalten Sie den Überblick über den Quellcode, indem Sie die statische Struktur des Systems durch Abstraktion verständlich machen.
-
-Damit ermöglichen Sie Kommunikation auf abstrakterer Ebene, ohne zu viele Implementierungsdetails offenlegen zu müssen.
 
 //.Form
-//Die Bausteinsicht ist eine hierarchische Sammlung von Blackboxen und Whiteboxen (siehe Abbildung unten) und deren Beschreibungen.
+//Die Bausteinsicht ist eine hierarchische Sammlung von Blackboxen und Whiteboxen und deren Beschreibungen.
 
 .Bausteinsicht
 Die nachfolgende Bausteinsicht zeigt die Struktur des Systems auf und gibt einen Überblick über die Relationen unter den einzelnen Bausteinen. +
 {empty} +
-*Diese Bausteinsicht befindet sich noch in Arbeit*
 
 
 {empty} +
@@ -42,7 +37,7 @@ image::../../software(sad)/images/05-Layer_2.jpg[Layer1]
 
 *Ebene 3* zoomt in einige Bausteine der Ebene 2 hinein, usw.
 
-image::../../software(sad)/images/05-Layer_3.jpg[Layer3]
+image::../../software(sad)/images/05-Layer_4.jpg[Layer3]
 
 {empty} +
 
