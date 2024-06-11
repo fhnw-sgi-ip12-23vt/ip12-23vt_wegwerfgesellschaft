@@ -9,6 +9,7 @@ In diesem Ordner befindet sich die Dokumentation zum Produkt. Dazu gehört:
 
 == Softwaredokumentation
 Der Aufbau und die Entwicklung der Software sind im SAD dokumentiert. Dort finden Sie informationen zu 
+
 - Randbedingungen
 - Kontextabgrenzung
 - Lösungsstrategie
@@ -22,7 +23,7 @@ Der Aufbau und die Entwicklung der Software sind im SAD dokumentiert. Dort finde
 - Glossar
 
 == Hardwaredokumentation
-Die Hardwaredokumentation befindet sich im README.md des Hauptprojekts (ip12-23vt_wegwerfgesellschaft/README.md). Dort finden Sie:
+Die Hardwaredokumentation befindet sich im README.md des Hauptprojekts. Dort finden Sie:
 
 - einen Bauplan des Kastens
 - eine Liste der verbauten Komponenten
@@ -31,6 +32,7 @@ Die Hardwaredokumentation befindet sich im README.md des Hauptprojekts (ip12-23v
 
 == Testdokumentation
 Die Testdokumentation finden sie im Ordner *testing*. Dort finden Sie:
+
 - Usability-Tests
 - Qualitätsprüfungen
 - Leistungstests
