@@ -186,7 +186,7 @@ Erläuterung der Bausteine::
 *Übersichtsdiagramm*
 
 
-image::../../software(sad)/images/view_übersichtsdiagramm.jpg[Übersichtsdiagramm view]
+image::../../software(sad)/images/view_übersichtsdiagramm_v2.jpg[Übersichtsdiagramm view]
 
 
 Begründung:: Die View enthält Klassen für die wichtigsten drei Entities (Cart, Player, FallingObject) sowie für weitere Daten welche Visuell dargestellt werden müssen wie zum Beispiel die verbleibende Zeit oder den aktuellen Punktestand. Die Aufteilung folgt den Klassen des Models, was für eine gute Lesbarkeit und eine klare Struktur über das gesamte Projekt sorgt.
@@ -224,7 +224,7 @@ Erläuterung der Bausteine::
 *Übersichtsdiagramm*
 
 
-image::../../software(sad)/images/controller_übersichtsdiagramm.jpg[Übersichtsdiagramm controller]
+image::../../software(sad)/images/controller_übersichtsdiagramm_v2.jpg[Übersichtsdiagramm controller]
 
 
 Begründung:: Der Controller enthält die Logik des Systems. Er folgt weiterhin der Aufteilung nach den drei wichtigsten Entity-Typen. Für Logik welche mehrere Entity-Typen betrifft ist in separaten Klassen gespeichert. Ein Beispiel dafür ist das Punktesystem.
