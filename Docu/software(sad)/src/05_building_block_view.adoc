@@ -35,7 +35,7 @@ image::../../software(sad)/images/05-Layer_1_Kontext.jpg[Kontextabgrenzung]
 *Ebene 2* zoomt in einige Bausteine der Ebene 1 hinein.
 Sie enthält somit die Whitebox-Beschreibungen ausgewählter Bausteine der Ebene 1, jeweils zusammen mit Blackbox-Beschreibungen darin enthaltener Bausteine.
 
-image::../../software(sad)/images/05-Layer_1.jpg[Layer1]
+image::../../software(sad)/images/05-Layer_2.jpg[Layer1]
 
 
 {empty} +
