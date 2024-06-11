@@ -63,7 +63,7 @@ include::src/03_system_scope_and_context.adoc[]
 
 <<<<
 // 4. Lösungsstrategie
-include::src/04_solution_strategy.adoc[]
+include::ip12-23vt_wegwerfgesellschaft/Docu/software(sad)/src/04_solution_strategy.adoc[]
 
 <<<<
 // 5. Bausteinsicht
