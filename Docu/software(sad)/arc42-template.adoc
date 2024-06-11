@@ -79,7 +79,7 @@ include::src/07_deployment_view.adoc[]
 
 <<<<
 // 8. Querschnittliche Konzepte
-include::src/08_concepts.adoc[]
+include::src/08_concepts.adoc
 
 <<<<
 // 9. Entscheidungen
