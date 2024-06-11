@@ -19,9 +19,9 @@ Konsequenzen: Diese Entscheidung ermöglicht eine effiziente Entwicklung der GUI
 ****
 
 ****
-Titel: Verwendung von Raspberry Pi 4
+Titel: Verwendung von Raspberry Pi 5
 
-Status: Noch offen
+Status: Abgelehnt
 
 Kontext: Damit das mit Java-Entwickelte Arcadespiel genügend Ressourcen enthält, benötigt es eine Anforderung von Hardwareelementen. Das Team wurde ein Raspberry Pi 4 zur Verfügung gestellt. Ein Upgrade auf den neueren Raspberry Pi 5 ist möglich und optimiert mögliche Performance Defizite.
 
