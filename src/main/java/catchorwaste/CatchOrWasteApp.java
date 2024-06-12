@@ -456,8 +456,6 @@ public class CatchOrWasteApp extends GameApplication implements TimerController.
     }
 
     public void updateBackground(){
-        System.out.println(getGameWorld().getEntitiesByType(EntityType.BACKGROUND)
-                .get(0).getComponent(ImageNameComponent.class).getImageName());
         if (score < -200 && !getGameWorld().getEntitiesByType(EntityType.BACKGROUND)
                 .get(0).getComponent(ImageNameComponent.class).getImageName().equals("background_black")) {
             setBackground("background_black");
